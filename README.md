@@ -34,3 +34,4 @@ To read the diagram:
 - The second row is the attributes (and their type) of the class
 - The third row are the methods for that class.
 
+![](uml-diagram.png)
