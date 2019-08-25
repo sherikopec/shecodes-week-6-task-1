@@ -35,3 +35,46 @@ To read the diagram:
 - The third row are the methods for that class.
 
 ![](uml-diagram.png)
+
+### Example
+
+Below is an example of what interacting with your program should look like:
+
+```
+14:27:44 survey$ python3 start_survey.py
+
+Welcome to this survey
+TODO write a description here
+
+
+Do you like meerkats?
+[a] Obviously.
+[b] No, they are lame.
+What is your answer? b
+
+Do you like Taylor Swift?
+[a] Obviously.
+[b] No, she is lame.
+What is your answer? a
+
+================= Taylor Swift =================
+This section is all about Taylor Swift, the singer-songwriter and cat mum to Meredith, Oliva and Benji.
+
+What is your favourite Taylor Swift song?
+[a] ME!
+[b] You Need To Calm Down
+[c] You know what, I can't decide, I love all of them.
+What is your answer? c
+
+Which of Taylor's cats is the cutest?
+[a] Meredith.
+[b] Olivia.
+[c] Benji.
+[d] All of the above.
+What is your answer? d
+```
+In this case, the two qualifying questions were "Do you like meerkats?" and "Do you like Taylor Swift". Since I answered "b" for the first question, I didn't qualify answer questions about meerkats, so that section was not shown. Since I answered "a" for the second question I qualified to answer the questions about Taylor Swift, so I was shown that section.
+
+Your survey should behave in a similar way, but with at least 3 qualifying questions and 3 sections.
+
+Your survey should include a title and description at the beginning of the survey, as well as for each section. There should be a concluding message before the program ends.
