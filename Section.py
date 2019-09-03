@@ -5,9 +5,6 @@ class Section:
         self.first_question = first_question
         self.description = description
 
-<<<<<<< Updated upstream
-    
-=======
     def start_saturday_section(self):
         print()
         print(self.description)
@@ -18,5 +15,3 @@ class Section:
             print()
             input()
             print()
-            
->>>>>>> Stashed changes
