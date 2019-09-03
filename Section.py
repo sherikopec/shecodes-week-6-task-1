@@ -5,4 +5,18 @@ class Section:
         self.first_question = first_question
         self.description = description
 
+<<<<<<< Updated upstream
     
+=======
+    def start_saturday_section(self):
+        print()
+        print(self.description)
+        print()
+        for question in self.questions:
+            print(question.question_text)
+            print(question.answers)
+            print()
+            input()
+            print()
+            
+>>>>>>> Stashed changes

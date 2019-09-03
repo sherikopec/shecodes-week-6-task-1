@@ -14,6 +14,7 @@ class Survey:
 
     def ask_question():
         pass
+<<<<<<< Updated upstream
 
     def show_answers():
         pass
@@ -26,3 +27,5 @@ class Survey:
 
     def end():
         pass
+=======
+>>>>>>> Stashed changes
